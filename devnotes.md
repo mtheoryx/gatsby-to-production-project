@@ -2,14 +2,14 @@
 
 ## What will we use to build it?
 
-- GatsbyJS
-- Styled-Components
-- Markdown
-- Zeit static deploy
+- GatsbyJS (docker, compose, maybe Vault)
+- Styled-Components (grab a nerdy theme, for free!)
+- Markdown (plugin)
+- Zeit static deploy (script it)
 
-Later
+Later (maybe..)
 
-API with Lambda/Gateway
+API with Lambda/Gateway, and S3 static bucket with https/dns and cloudfront
 Deployed with Terraform and AWS
 
 ## Topics
