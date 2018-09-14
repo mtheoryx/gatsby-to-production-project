@@ -2,8 +2,8 @@
 
 ## Next up
 
-- [ ] Docker and gatsbyV2 with a starter
-- [ ] Dev server and hot reload working
+- [x] Docker and gatsbyV2 with a starter
+- [x] Dev server and hot reload working
 - [ ] Styled-components
 - [ ] Pages, linking, menu
 
@@ -44,11 +44,7 @@ Who to pick? **Anything but Godaddy**
 
 #### Define and segment Audience
 
-Peers (for fun)
-Experts you follow (for extra level-up helps)
-Want to get that next job (to hire me)
-Want to level up at current job (for a promotion)
-Customers/Clients to hire me for contract work
+
 
 #### Passion (launchpad)
 
