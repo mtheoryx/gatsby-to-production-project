@@ -1,3 +1,7 @@
 FROM node:8.11.4-alpine
 
-CMD ["/bin/sh", "-c", "echo $(node --version)"]
+WORKDIR /usr/app/site
+
+RUN npm i -g gatsby@next
+
+# CMD ["/bin/sh", "-c", "echo $(node --version)"]
