@@ -1,3 +1,3 @@
 FROM node:8.11.4-alpine
 
-CMD ["node -v"]
+CMD ["/bin/sh", "-c", "echo $(node --version)"]
