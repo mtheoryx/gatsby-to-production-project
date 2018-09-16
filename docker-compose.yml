@@ -1,0 +1,15 @@
+version: '3'
+
+services:
+  web:
+    build: .
+    container_name: gatsby
+    command: npm run develop
+    stdin_open: true
+    tty: true
+    ports:
+      - "8000:8000"
+    volumes: # Persist container data
+      - ./site:/usr/app/site
+
+
