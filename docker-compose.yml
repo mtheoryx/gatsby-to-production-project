@@ -11,5 +11,5 @@ services:
       - "8000:8000"
     volumes: # Persist container data
       - ./site:/usr/app/site
-
+      - /usr/app/site/node_modules
 
